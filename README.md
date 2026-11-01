@@ -1,15 +1,28 @@
-# Homepage
+# kuumeunta
 
 Aspiring information security specialist. Currently building hands-on labs in VirtualBox around Linux hardening, network traffic and log analysis.
 
 Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly detection in logs.
+
+## Lab track
+
+| # | Lab | What I did | Skills shown |
+|---|-----|-----------|--------------|
+| 00 | [firewall-lab](https://github.com/kuumeunta/00-firewall-lab) | ufw between two Ubuntu VMs, deny-by-default, SSH | firewall rules, SSH, basic network testing |
+| 01 | [ufw-logging-lab](https://github.com/kuumeunta/01-ufw-logging-lab) | Read ufw logs, found blocked SYN packets, filtered multicast noise | log analysis, grep filtering |
+| 02 | [wireshark-ufw-traffic-lab](https://github.com/kuumeunta/02-wireshark-ufw-traffic-lab) | Captured ICMP and TCP with closed and open ports | Wireshark, TCP handshake, packet-level view of firewall behavior |
+| 03 | [ssh-failed-logins-lab](https://github.com/kuumeunta/03-ssh-failed-logins-lab) | Analyzed failed SSH logins, set up fail2ban | auth log analysis, intrusion prevention |
+| 04 | *in progress*: bash log parser | | scripting, automation |
+
+Planned: Bruteforce & fail2bans, Windows security basics, Linux hardening basic
+
 
 ## Operating systems
 
 - Daily use: Windows 10, Kali Linux (i3)
 - Regular use: Ubuntu (many installations, labs), Windows 11
 - Worked with: Windows Server, RED OS
-- Limited experience: Astra Linux, Fedora
+- Limited experience: Astra Linux
 
 ## Tools & workflow
 
@@ -22,19 +35,7 @@ Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly de
 - Firewalls & networking: pfSense, MikroTik & Cisco Packet Tracer (both very basic)
 - Databases: PostgreSQL
 - Imaging & boot media: Clonezilla, Rufus, UltraISO
-
-# Lab track
-
-| # | Lab | What I did | Skills shown |
-|---|-----|-----------|--------------|
-| 00 | [firewall-lab](https://github.com/kuumeunta/00-firewall-lab) | ufw between two Ubuntu VMs, deny-by-default, SSH | firewall rules, SSH, basic network testing |
-| 01 | [ufw-logging-lab](https://github.com/kuumeunta/01-ufw-logging-lab) | Read ufw logs, found blocked SYN packets, filtered multicast noise | log analysis, grep filtering |
-| 02 | [wireshark-ufw-traffic-lab](https://github.com/kuumeunta/02-wireshark-ufw-traffic-lab) | Captured ICMP and TCP with closed and open ports | Wireshark, TCP handshake, packet-level view of firewall behavior |
-| 03 | [ssh-failed-logins-lab](https://github.com/kuumeunta/03-ssh-failed-logins-lab) | Analyzed failed SSH logins, set up fail2ban | auth log analysis, intrusion prevention |
-| 04 | *in progress*: bash log parser | | scripting, automation |
-| 05 | *planned*: Linux hardening basics | | |
-| 06 | *planned*: Windows security basics | | |
-| 07 | *planned*: Bruteforce & fail2ban | | |
+- In labs: ufw, ssh, fail2ban, Wireshark, journalctl, grep, bash
 
 ## Lab environment
 
@@ -44,10 +45,6 @@ Everything is isolated; no real systems or credentials involved.
 ## How each lab is structured
 
 Goal → Environment → Steps with screenshots → Problems → Conclusions.
-
-## Tools I've used
-
-ufw, ssh, fail2ban, Wireshark, journalctl, grep, bash
 
 ## Contact
 
