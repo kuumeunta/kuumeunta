@@ -43,4 +43,4 @@ Everything is isolated; no real systems or credentials involved.
 - In labs: ufw, ssh, fail2ban, Wireshark, journalctl, grep, bash
 
 ## Contact
-
+Email: q7kpqpdo@anonaddy.com
