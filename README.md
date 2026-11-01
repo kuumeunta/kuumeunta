@@ -32,7 +32,7 @@ Everything is isolated; no real systems or credentials involved.
 ## Tools & workflow
 
 - Obsidian: 2+ years of daily use for notes, lab documentation and knowledge base
-- Vault Modules: Obsidian plugin for enabling/disabling vault folders as modules.
+- [Vault Modules](https://github.com/kuumeunta/Obsidian-Modules): Obsidian plugin for enabling/disabling vault folders as modules.
   Designed by me, built with Claude Code (AI-assisted).
 
 ## Infrastructure
