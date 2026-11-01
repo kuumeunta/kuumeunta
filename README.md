@@ -14,8 +14,13 @@ Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly de
 | 03 | [ssh-failed-logins-lab](https://github.com/kuumeunta/03-ssh-failed-logins-lab) | Analyzed failed SSH logins, set up fail2ban | auth log analysis, intrusion prevention |
 | 04 | *in progress*: bash log parser | | scripting, automation |
 
-Planned: Bruteforce & fail2bans, Windows security basics, Linux hardening basic
+**Planned**: Bruteforce & fail2bans, Windows security basics, Linux hardening basic
 
+**Lab structure**: Goal → Environment → Steps with screenshots → Problems → Conclusions.
+
+**Lab environment**:
+All labs run on: Windows 10 host, VirtualBox, two Ubuntu VMs, Host-Only network.
+Everything is isolated; no real systems or credentials involved.
 
 ## Operating systems
 
@@ -36,15 +41,6 @@ Planned: Bruteforce & fail2bans, Windows security basics, Linux hardening basic
 - Databases: PostgreSQL
 - Imaging & boot media: Clonezilla, Rufus, UltraISO
 - In labs: ufw, ssh, fail2ban, Wireshark, journalctl, grep, bash
-
-## Lab environment
-
-All labs run on: Windows 10 host, VirtualBox, two Ubuntu VMs, Host-Only network.
-Everything is isolated; no real systems or credentials involved.
-
-## How each lab is structured
-
-Goal → Environment → Steps with screenshots → Problems → Conclusions.
 
 ## Contact
 
