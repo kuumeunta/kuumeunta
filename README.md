@@ -12,7 +12,7 @@ Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly de
 | 01 | [ufw-logging-lab](https://github.com/kuumeunta/01-ufw-logging-lab) | Read ufw logs, found blocked SYN packets, filtered multicast noise | log analysis, grep filtering |
 | 02 | [wireshark-ufw-traffic-lab](https://github.com/kuumeunta/02-wireshark-ufw-traffic-lab) | Captured ICMP and TCP with closed and open ports | Wireshark, TCP handshake, packet-level view of firewall behavior |
 | 03 | [ssh-failed-logins-lab](https://github.com/kuumeunta/03-ssh-failed-logins-lab) | Analyzed failed SSH logins, set up fail2ban | auth log analysis, intrusion prevention |
-| 04 | *in progress*: bash log parser | | scripting, automation |
+| 04 | [bash-log-parser](https://github.com/kuumeunta/04-bash-log-parser/tree/main) | | Understanding how bash scripts work with logs. | sorting, automatizing
 
 **Planned**: Bruteforce & fail2bans, Windows security basics, Linux hardening basic
 
