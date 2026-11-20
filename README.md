@@ -2,7 +2,7 @@
 
 Aspiring information security specialist. Currently building hands-on labs in VirtualBox around Linux hardening, network traffic and log analysis.
 
-Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly detection in logs.
+Interested in: SOC analysis, penetration testing, OSINT, and ML-based anomaly detection in logs. Also into hardware: PC/laptop assembly & disassembly, cleaning, diagnostics and repair.
 
 ## Lab track
 
